@@ -1,0 +1,29 @@
+.priority-type{
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 700px;
+    height: 50px;
+    margin-top: 5px;
+}
+.High{
+    border-right: 4px solid red;
+    margin-left: 120px;
+}
+.Middle{
+    border-right: 4px solid orange;
+    margin-left: 120px;
+}
+.Low{
+    border-right: 4px solid rgb(85, 213, 96);
+    margin-left: 120px;
+}
+.main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.priority-type{
+    border: 3px solid rgb(38, 98, 100);
+    padding: 10px;
+    border-radius: 4px;
+}
