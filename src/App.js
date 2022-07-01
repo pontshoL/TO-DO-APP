@@ -26,7 +26,7 @@ function App() {
   })
   return (
 
-    <Router>
+    <Router basename='TO-DO-APP'>
     <Switch>
       <Route exact path="/" component={LogIn}></Route>
       <Route path="/sign-up" component={SignUp}></Route>
